@@ -1,0 +1,94 @@
+svg{
+    z-index: 1;
+}
+
+.tooltip{
+    display: none;
+}
+
+.tooltip tspan, .tooltip text {
+    font-size: 17px;
+}
+
+.tooltip-title{
+    font-size: 28px !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tooltip-area-value, .tooltip-yield-value, .tooltip-production-value{
+    font-size: 28px !important;
+    font-family: Segoe UI-ROUNDED;
+    font-weight: bold;
+}
+
+.infoContainer{
+    z-index: -1;
+    position: absolute;
+    width: 600px;
+    margin-left: 350px;
+    top: 50px;
+}
+
+.header{
+    /* height:800px; */
+    font-size: 20px;
+    font-family: "Helvetica";
+    text-align: justify;
+    color: #444;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.vizContainer{
+    width: 50%;
+    margin:auto;
+}
+
+.dataviz{
+    margin: auto;
+}
+
+.vizFooter{
+    font-size: 16px;
+    font-family: Helvetica;
+    color: #4d4d4d;
+    width: 990px;
+    padding: 2px 5px;
+    border: 1px solid #222;
+}
+
+svg{
+    margin: auto;
+    border: 1px solid #222;
+}
+
+.infoTable{
+    opacity: 0;
+}
+
+td, th{
+    padding: 2px 5px 5px 5px;
+    border-bottom: 1px solid #d7d7d7;
+    font-weight: 400;
+    color: #4d4d4d;
+    font-size: 19px;
+}
+
+.annotation-note-content{
+    font-size: 20px;
+    
+}
+
+.annotation-zoomed-group{
+    opacity: 0;
+}
+
+.xAxis, .yAxis, .annotation{
+    pointer-events: none;
+}

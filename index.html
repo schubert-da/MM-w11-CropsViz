@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crop yields</title>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="vizContainer">
+    <!-- <div class="tooltip"> This is tooltip that didn't make it, his name is Bob</div> -->
+    <div class="infoContainer">
+        <div class="header"></div>
+        <div class="infoTable">
+            <table>
+                <tr>
+                    <th> </th>
+                    <th>AREA HARVESTED (ha)</th>
+                    <th>PRODUCTION (Tonnes)</th>
+                </tr>
+                <tr>
+                    <td> Wheat, Maize, Rice<br>and Sugar cane</td>
+                    <td>601,939,187</td>
+                    <td>4,619,040,834</td>
+                </tr>
+                <tr>
+                    <td> Other crops<br>(Total 157)</td>
+                    <td>828,183,519</td>
+                    <td>5,241,273,710</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="dataviz"></div>
+    <div class="vizFooter">
+        <b>Data source:</b> FAOSTAT | 
+        <b>Design:</b> Schubert de Abreu (@schubertda1)
+    </div>
+    <script src="viz.js"></script>
+</div>
+    
+</body>
+</html>
